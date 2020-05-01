@@ -1,5 +1,170 @@
-#grant {
-	font-size: 200px;
-	color: red;
-	
+body {
+  background: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+#main-navbar {
+  background-color: black;
+}
+
+#header {
+  vertical-align: top;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(212, 27, 4);
+  width: 100%;
+  height: 100%;
+}
+
+#header a {
+  color: white;
+  opacity: 0.65;
+}
+
+#header a:hover {
+  color: white;
+  opacity: 1;
+}
+
+/*
+#header .header-contact-info {
+  display: inline-block;
+  padding: 5px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+*/
+
+#header .header-contact-info p {
+  margin-bottom: 0px;
+}
+
+.header-text {
+  padding-left: 45px;
+  padding-right: 35px;
+}
+
+.header-text h1 {
+  color: white;
+}
+
+.header-text p {
+  font-size: 18px;
+  color: white;
+}
+
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 35px;
+}
+
+.navbar.scrolled {
+  background: darkcyan;
+  transition: background 500ms;
+}
+
+#main-navbar .nav-icon {
+  opacity: 0.85;
+}
+
+#main-navbar .nav-icon:hover {
+  opacity: 1;
+}
+
+#projects-container {
+  background: whitesmoke;
+}
+
+#experience-container {
+  background: white;
+}
+
+#recognition-container {
+  background: whitesmoke;
+}
+
+#other-media-container {
+  background: white;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.block h1 {
+  margin-bottom: 30px;
+}
+
+.block .subheader {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.block .sub-block {
+  padding-bottom: 5%;
+}
+
+.block .sub-block-image {
+  padding-bottom: 3%;
+}
+
+/*
+#recognition-container .subheader {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+*/
+
+.testimonial-box {
+  padding: 0px 30px 20px 30px;
+  border-radius: 5px;
+}
+
+.quote {
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-style: italic;
+}
+
+.awards-list {
+  font-size: 16px;
+}
+
+.press-list {
+  font-size: 16px;
+}
+
+
+#footer {
+  padding: 30px 0 30px 0;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+#footer .text {
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+#footer p {
+  color: white;
+  margin-bottom: 0;
 }
